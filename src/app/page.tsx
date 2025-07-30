@@ -22,7 +22,7 @@ export default function Home() {
       const fetchedTodos = await fetchTodos();
       setTodos(fetchedTodos);
     } catch (err) {
-      setError("個々なんかエラーが発生しているっぽいよ");
+      setError("個々なんかエラーが発生しているっぽい");
       console.error("Failed to load todos:", err);
     } finally {
       setLoading(false);
