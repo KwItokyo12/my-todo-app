@@ -22,7 +22,7 @@ export default function Home() {
       const fetchedTodos = await fetchTodos();
       setTodos(fetchedTodos);
     } catch (err) {
-      setError("リマインダーの読み込みに失敗しました");
+      setError("個々なんかエラーが発生しているっぽい");
       console.error("Failed to load todos:", err);
     } finally {
       setLoading(false);
@@ -67,7 +67,7 @@ export default function Home() {
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-md mx-auto px-4 py-6">
           <h1 className="text-3xl font-bold text-black text-center">
-            リマインダー
+            はよ追いつきたい
           </h1>
           <p className="text-lg text-gray-700 text-center">
             タスクの整理と管理を簡単に
