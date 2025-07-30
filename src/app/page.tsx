@@ -22,7 +22,7 @@ export default function Home() {
       const fetchedTodos = await fetchTodos();
       setTodos(fetchedTodos);
     } catch (err) {
-      setError("リマインダーの読み込みに失敗しました");
+      setError("個々なんかエラーが発生しているっぽいよ");
       console.error("Failed to load todos:", err);
     } finally {
       setLoading(false);
