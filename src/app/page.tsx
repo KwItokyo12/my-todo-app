@@ -69,6 +69,9 @@ export default function Home() {
           <h1 className="text-3xl font-bold text-black text-center">
             リマインダー
           </h1>
+          <p className="text-lg text-gray-700 text-center">
+            タスクの整理と管理を簡単に
+          </p>
         </div>
       </div>
 
